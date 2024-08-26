@@ -142,7 +142,7 @@ class BasePassManager(ABC):
         """Convert input program into pass manager IR.
 
         Args:
-            in_program: Input program.
+            input_program: Input program.
 
         Returns:
             Pass manager IR.
